@@ -1,0 +1,87 @@
+ body{
+    font-family: 'Hind', sans-serif;
+    color: aliceblue;
+} 
+.navbar{
+    overflow: hidden;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+}
+.navbar img{
+    float: right;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.nav-menu a {
+    float: left;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+}
+.nav-menu a:hover{
+    background-color: rgb(70, 70, 70);
+    color: aliceblue;
+}
+.card-content{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width:900px;
+    margin-top: 60px;
+    color: black;
+    text-align: justify;
+    height: 480px;
+}
+.card-content article{
+    margin: 20px;
+    font-size: 11pt;
+}
+.card-content article h1{
+    color: rgb(150, 150, 150);
+}
+.card-content h1{
+    color: rgb(150, 150, 150);
+    text-align: center;
+}
+.card-content img{
+    width: 300px;
+    border-top-left-radius:5px ;
+    border-bottom-left-radius: 5px;
+    float: left;
+    margin: 20px;
+    
+}
+.img-animate{
+    display: block;
+    margin: auto;
+    width: 900px max-content;
+    margin-top: 20px;
+    /* background-size: ; */
+}
+.footer {
+    /* margin-top: 90px; */
+    color: black;
+}
+#form{
+    padding: 20px;
+}
+.form_control{
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+.button{
+	background: #215cff;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
